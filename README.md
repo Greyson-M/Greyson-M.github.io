@@ -7,4 +7,6 @@
 
 - [**3D Rigid Body Simulator**](/projects/DzhanibekovEffect.html)
 
-- [**Wave Equation in Polar Coordinates**](/projects/PolarWaveEquation.html)- [**Double Pendulum**](/projects/DoublePendulum.html)
+- [**Wave Equation in Polar Coordinates**](/projects/PolarWaveEquation.html)
+
+- [**Double Pendulum**](/projects/Double Pendulum.html)
