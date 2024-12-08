@@ -1,7 +1,7 @@
 # Computer Science and Mathematics
 
 ### Projects
-- [**Burgers Equation Solver**](/projects/BurgersEquation.html)
+- [**Burgers Equation Solver**](/projects/BurgersEquation.md)
 
 - [**2D Heat Equation Solver**](/projects/2DHeatEquation.html)
 
