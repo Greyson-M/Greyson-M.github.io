@@ -11,6 +11,10 @@ $$
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 $$
 
+**inline test**
+$ \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2} \\$ 
+$( x )$
+
 ### Projects
 - [**Burgers Equation Solver**](/projects/BurgersEquation.md)
 
