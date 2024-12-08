@@ -9,4 +9,4 @@
 
 - [**Wave Equation in Polar Coordinates**](/projects/PolarWaveEquation.html)
 
-- [**Double Pendulum**](/projects/Double Pendulum.html)
+- [**Double Pendulum**]('/projects/Double Pendulum.html')
