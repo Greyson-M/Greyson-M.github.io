@@ -1,6 +1,3 @@
 title: Greyson Meares
 description: 
 theme: jekyll-theme-minimal
-
-kramdown:
-  math_engine: katex
