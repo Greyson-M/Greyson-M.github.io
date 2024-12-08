@@ -59,4 +59,14 @@
   display: inline;
   margin-right: 15px;
 }
+
+a {
+  color: blue; /* Change the color to blue */
+  text-decoration: underline; /* Underline the links */
+}
+
+a:hover {
+  color: darkblue; /* Change the color on hover */
+}
+
 </style>
