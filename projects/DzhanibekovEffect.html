@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Equation in Polar Coordinates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .description {
+            margin: 20px 0;
+        }
+        .gif-container {
+            margin: 20px 0;
+        }
+    </style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dzhanibekov Effect</h1>
+        <div class="description">
+            <p>The Dzhanibekov effect is a phenomenon in which a rotating rigid body exhibits unexpected motion due to its moments of inertia.</p>
+            <p>The effect is a result of the intermediate axis theorem, which states that a rigid body rotating about its intermediate axis is unstable.</p>
+        </div>
+        <div class="gif-container">
+            <img src="Rigid.gif" alt="Dzhanibekov Effect">
+        </div>
+
+        <div class="description">
+            <p> This effect comes from Euler's equations of motion for a rigid body:</p>
+            <p>$$I_1 \dot{\omega}_1 = (I_2 - I_3) \omega_2 \omega_3$$</p>
+            <p>$$I_2 \dot{\omega}_2 = (I_3 - I_1) \omega_3 \omega_1$$</p>
+            <p>$$I_3 \dot{\omega}_3 = (I_1 - I_2) \omega_1 \omega_2$$</p>
+
+            <p>This numerical simulation was rendered using a custom 3d rendering engine written in C++.</p>
+            <p>The effect is most notable when the body is not subjected to gravity or other external forces, as shown in the simulation</p>
+    
+        </div>
+    </div>
+</body>
+</html>

@@ -1,9 +1,10 @@
-# greyson-meares.github.io
+# Computer Science and Mathematics
 
-##Projects
+### Projects
 - [**Burgers Equation Solver**](/projects/BurgersEquation.html)
 
 - [**2D Heat Equation Solver**](/projects/2DHeatEquation.html)
 
 - [**3D Rigid Body Simulator**](/projects/DzhanibekovEffect.html)
 
+- [**Wave Equation in Polar Coordinates**](/projects/PolarWaveEquation.html)
