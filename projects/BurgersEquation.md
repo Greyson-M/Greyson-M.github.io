@@ -6,7 +6,7 @@ $$
 \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} = \nu \frac{\partial^2 u}{\partial x^2}
 $$
 
-The focus of this demonstration is the inviscid case, where the viscosity term \( \nu \) is zero.
+The focus of this demonstration is the inviscid case, where the viscosity term $( \nu )$ is zero.
 
 $$
 \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} = 0
