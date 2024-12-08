@@ -1,5 +1,14 @@
-<script type="text/javascript" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+    
+<script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
 # Computer Science and Mathematics
@@ -12,8 +21,8 @@ $$
 $$
 
 **inline test**
-$ \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2} \\$ 
-$( x )$
+$$ \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2} \\$$ 
+ this is an inline "x": ( x ), not a math block.
 
 ### Projects
 - [**Burgers Equation Solver**](/projects/BurgersEquation.md)
