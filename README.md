@@ -4,7 +4,7 @@
 ### Projects
 - [**Burgers Equation Solver**](/projects/BurgersEquation.md)
 
-- [**2D Heat Equation Solver**](/projects/2DHeatEquation.html)
+- [**2D Heat Equation Solver**](/projects/HeatEquation.md)
 
 - [**3D Rigid Body Simulator**](/projects/DzhanibekovEffect.md)
 
