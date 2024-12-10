@@ -20,3 +20,5 @@ $$
 $$
 
 ![Wave Equation in Polar Coordinates](polar_wave.gif)
+![Wave Equation in Polar Coordinates](polar_wave2.gif)
+
