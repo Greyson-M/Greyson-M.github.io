@@ -48,6 +48,15 @@
   </ul>
 </div>
 
+**My Resume**
+
+[Resume](/Resume2024.pdf)
+
+**Contact Me**
+
+[Email](mailto:gcm00010@mix.wvu.edu) |
+[LinkedIn](https://www.linkedin.com/in/greyson-meares/)
+
 <style>
 .horizontal-list ul {
   list-style-type: none;
