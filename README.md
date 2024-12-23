@@ -51,7 +51,7 @@
 <style>
 .horizontal-list ul {
   list-style-type: none;
-  padding: 0;
+  padding: 5px;
 }
 
 .horizontal-list li {
