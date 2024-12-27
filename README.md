@@ -54,7 +54,7 @@
 
 **Contact Me**
 
-[Email](mailto:gcm00010@mix.wvu.edu) |
+[gcm00010@mix.wvu.edu](mailto:gcm00010@mix.wvu.edu) |
 [LinkedIn](https://www.linkedin.com/in/greyson-meares/)
 
 <style>
