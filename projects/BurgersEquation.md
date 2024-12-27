@@ -36,7 +36,7 @@ where:
 
 ## Numerical Solution
 
-To solve Burgers' equation numerically, we can use methods such as finite difference, finite element, or spectral methods. 
+To solve Burgers' equation numerically, we can use methods such as finite difference, finite volume, finite element, etc.
 Due to the nonlinearity of the equation, it is possible for shocks to form in the solution. Shocks are discontinuities in the solution that can be difficult to resolve numerically. 
 
 Because of this, many typical numerical methods for solving PDEs will not preserve these shocks properly. In the demonstration above, a finite volume method, which uese a simple Reimann solver to compute the flux at the boundaries between spacial steps, is compared to the Lax-Friedrichs method, a finite difference method that is known for its effectivness in solving conservation laws.

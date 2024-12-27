@@ -18,7 +18,7 @@ The Dzhanibekov effect is a phenomenon in which a rotating rigid body exhibits u
 ![Dzhanibekov Effect](Rigid.gif)
 ![Dzhanibekov Effect](2to1top.gif)
 
-A couple object rotating about their intermeditate axes
+A couple of objects rotating about their intermediate axes.
 
 This effect comes from Euler's equations of motion for a rigid body:
 

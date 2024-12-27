@@ -50,7 +50,7 @@
 
 **My Resume**
 
-[Resume](/Resume2024.pdf)
+[Resume](/Greyson-Meares-Resume.pdf)
 
 **Contact Me**
 
