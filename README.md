@@ -15,18 +15,6 @@
 
 ### Relevant Course Work
 
-**Math**
-<div class="horizontal-list">
-  <ul>
-    <li>• Partial Differential Equations</li>
-    <li>• Linear Algebra</li>
-    <li>• Elementary Differential Equations</li>
-    <li>• Calculus I-III</li>
-    <li>• Discrete Mathematics</li>
-    <li>• Probability and Statistics</li>
-  </ul>
-</div>
-
 **Computer Science**
 <div class="horizontal-list">
   <ul>
@@ -47,6 +35,27 @@
     <li>• Software Engineering</li>
   </ul>
 </div>
+
+**Math**
+<div class="horizontal-list">
+  <ul>
+    <li>• Partial Differential Equations</li>
+    <li>• Linear Algebra</li>
+    <li>• Elementary Differential Equations</li>
+    <li>• Calculus I-III</li>
+    <li>• Discrete Mathematics</li>
+    <li>• Probability and Statistics</li>
+  </ul>
+</div>
+
+**Resume**
+
+[Resume](/Greyson-Meares-Resume.pdf)
+
+**Contacts**
+
+[gcm00010@mix.wvu.edu](mailto:gcm00010@mix.wvu.edu) |
+[LinkedIn](https://www.linkedin.com/in/greyson-meares/)
 
 <style>
 .horizontal-list ul {
