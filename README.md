@@ -38,7 +38,7 @@
   </ul>
 </div>
 
-**Courses I will be taking in Spring 2025**
+**Courses I am Currently Taking in Spring 2025**
 <div class="horizontal-list">
   <ul>
     <li>• Complex Analysis</li>
