@@ -2,16 +2,15 @@
 # Computer Science and Mathematics
 
 ### Projects
-- [**Burgers Equation Solver**](/projects/BurgersEquation.md)
-
-- [**2D Heat Equation Solver**](/projects/HeatEquation.md)
-
 - [**3D Rigid Body Simulator**](/projects/DzhanibekovEffect.md)
 
 - [**Wave Equation in Polar Coordinates**](/projects/PolarWaveEquation.md)
 
 - [**Double Pendulum**](/projects/DoublePendulum.md)
 
+- [**Burgers Equation Solver**](/projects/BurgersEquation.md)
+
+- [**2D Heat Equation Solver**](/projects/HeatEquation.md)
 
 ### Relevant Course Work
 
