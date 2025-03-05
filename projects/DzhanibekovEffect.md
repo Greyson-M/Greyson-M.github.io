@@ -17,10 +17,13 @@ The Dzhanibekov effect is a phenomenon in which a rotating rigid body exhibits u
 
 ![Dzhanibekov Effect](2to1top.gif)
 
-This effect comes from Euler's equations of motion for a rigid body:
+This effect is a result of Euler's equations of motion for a rigid body:
 
 $$
 I \dot{\omega} + \omega \times (I\omega) = 0
 $$
 
 This numerical simulation was rendered using a custom 3D rendering engine written in C++. The effect is most notable when the body is not subjected to gravity or other external forces, as shown in the simulation.
+
+![Dzhanibekov Effect in Space](spacedemo.gif)
+*The Dzhanibekov effect demonstrated aboard a space station.*
