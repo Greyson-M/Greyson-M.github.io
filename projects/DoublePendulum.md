@@ -13,7 +13,7 @@
 
 # Double Pendulum
 
-The set of coupled non-linear differential equations governing the motion of the double pendulum:
+The set of coupled non-linear differential equations governing the motion of the [double pendulum](https://en.wikipedia.org/wiki/Double_pendulum) are given by:
 
 $$
 \begin{aligned}
