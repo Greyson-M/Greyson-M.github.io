@@ -35,3 +35,4 @@ To solve Burgers' equation numerically, we can use methods such as finite differ
 Due to the nonlinearity of the equation, shocks will form in the solution. Shocks are discontinuities in the solution that can be difficult to resolve numerically. 
 
 Many typical numerical methods for solving PDEs will not preserve these shocks properly. In the demonstration above, a finite volume method, which uese a simple Reimann solver to compute the flux at the boundaries between spacial cells, is compared to the Lax-Friedrichs method, an upwinding finite difference method that is known for its effectivness in solving conservation laws.
+
