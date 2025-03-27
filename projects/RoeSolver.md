@@ -1,3 +1,17 @@
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+    
+<script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
 # Finite Volume: Euler Equations
 
 [Euler equations](https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)) are a set of [hyperbolic partial differential equations](https://en.wikipedia.org/wiki/Hyperbolic_partial_differential_equation) that describe the motion of an inviscid fluid. The compressible equations are given by:
