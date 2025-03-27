@@ -44,7 +44,8 @@ There are certain scenerios where unphysical oscillations develop. I am currentl
 
 I also plan to implement this solver in 2D. I would also like allow for source terms in the equations.
 
-#### References
+### References
+
 [Numerical Methods for Conservation Laws](https://link.springer.com/book/10.1007/978-3-0348-8629-1) by Randall J. LeVeque
 
 [Riemann Solvers and Numerical Methods for Fluid Dynamics](https://link.springer.com/book/10.1007/b79761) by E. F. Toro
