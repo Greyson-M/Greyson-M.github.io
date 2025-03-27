@@ -11,7 +11,6 @@
         src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-
 # Finite Volume: Euler Equations
 
 [Euler equations](https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)) are a set of [hyperbolic partial differential equations](https://en.wikipedia.org/wiki/Hyperbolic_partial_differential_equation) that describe the motion of an inviscid fluid. The compressible equations are given by:
@@ -27,7 +26,7 @@ Where:
 - $u$ is the velocity of the fluid
 - $p$ is the pressure of the fluid
 - $E$ is the total energy of the fluid
-- $P$ is the pressure of the fluid, related to the density and internal energy by  an equation of state. For example, for polytropic gases, the equation of state is given by:
+- $P$ is the pressure of the fluid, related to the density and internal energy by an equation of state. For example, for polytropic gases, the equation of state is given by:
 $$
 P = (\gamma - 1) (E - \frac{1}{2} \rho u^2)
 $$
@@ -54,9 +53,9 @@ The Exact solution of the Riemann problem for Euler equations is known, so that 
 
 ![Pressure Spike](pressure_spike_dense.gif)
 
-There are certain scenerios where unphysical oscillations develop. I am currently working to mitigate this issue. I am looking in to flux limiters, which are used to control the oscillations in the solution. The idea is to limit the fluxes at the boundaries of the cells to prevent the oscillations from developing.
+There are certain scenarios where unphysical oscillations develop. I am currently working to mitigate this issue. I am looking to implement a TVD method to limit the oscillations. This is often achieved by limiting the flux.
 
-I also plan to implement this solver in 2D. I would also like allow for source terms in the equations.
+I also plan to implement this solver in 2D. I would also like to allow source terms in the equations.
 
 ### References
 
