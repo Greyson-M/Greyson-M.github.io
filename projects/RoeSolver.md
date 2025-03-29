@@ -53,7 +53,9 @@ The Exact solution of the Riemann problem for Euler equations is known, so that 
 
 ![Pressure Spike](pressure_spike_dense.gif)
 
-There are certain scenarios where unphysical oscillations develop. I am currently working to mitigate this issue. I am looking to implement a TVD method to limit the oscillations. This is often achieved by limiting the flux.
+## Future Work
+
+There are certain scenarios where unphysical oscillations develop. I am currently working to mitigate this issue. I am looking to implement a TVD method to limit the oscillations. This is often achieved by limiting the flux. I would also like to implement an adaptive mesh, effectively increasing the resoultion around shocks.
 
 I also plan to implement this solver in 2D. I would also like to allow source terms in the equations.
 
