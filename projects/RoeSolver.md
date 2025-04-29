@@ -15,11 +15,12 @@
 
 [Euler equations](https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)) are a set of [hyperbolic partial differential equations](https://en.wikipedia.org/wiki/Hyperbolic_partial_differential_equation) that describe the motion of an inviscid fluid. The compressible equations are given by:
 $$
+\\
 \begin{align*}
 \rho_t + (\rho u)_x  = 0 \\
 (\rho u)_t + \left( \rho u^2 + p \right)_x = 0 \\
 E_t + \left( (E + p)u \right)_x = 0
-\end{align*}
+\end{align*}\\
 $$
 Where:
 - $\rho$ is the density of the fluid
@@ -36,10 +37,10 @@ $$
 ## Numerical Solution
 I use a [Godunov finite volume method](https://en.wikipedia.org/wiki/Godunov%27s_scheme) to solve the Euler equations. The method is based on the idea of partitioning the domain into a grid of cells and solving the equations in each cell. The fluxes at the boundaries of the cells are computed using a Riemann solver. The [Riemann problem](https://en.wikipedia.org/wiki/Riemann_problem) is an initial value problem that consists of two constant states separated by a discontinuity. The solution to the Riemann problem gives the fluxes at the boundaries of the cells.
 
-For the Riemann solver, I used the method of Roe. The Roe solver is based on the idea of linearizing the equations around the average state of the two constant states.
+For the Riemann solver, I used the method of Roe. The Roe solver is based on a [linearization](https://en.wikipedia.org/wiki/Linearization) of the the equations around a "Roe average" of the two constant states.
 
 ![Shock Tube](shock_tube.gif)
-The initial condition is a shock tube problem, where the initial condition is given by:
+The initial condition is a [shock tube problem](https://en.wikipedia.org/wiki/Sod_shock_tube), where the initial condition is given by:
 $$
 \begin{align*}
 \rho(x,0) = \begin{cases} 1 & x < 0 \\ 0.125 & x > 0 \end{cases} \\
@@ -55,11 +56,25 @@ The Exact solution of the Riemann problem for Euler equations is known, so that 
 
 ![Pressure Spike](pressure_spike_dense.gif)
 
+## Two Dimensional Euler Equations
+
+![subsonic](subsonic_inflow.gif)
+Subsonic initial condition
+$$
+\\
+\rho_0 = \begin{cases} 1.5 & 0.35 < y < 0.55 \ \text{and} \ x < 0.1 \\ 0.4 & \text{otherwise} \end{cases} \\
+u_0 = \begin{cases} 0.5 & 0.35 < y < 0.55 \ \text{and} \ x < 0.1 \\ 0 & \text{otherwise} \end{cases} \\
+v_0 = 0 \\
+P_0 = \begin{cases} 1.5 & 0.35 < y < 0.55 \ \text{and} \ x < 0.1 \\ 0.4 & \text{otherwise} \end{cases} \\
+$$
+
+![supersonic](supersonic_inflow.gif)
+Supersonic initial condition
+Same as above, but with $u_0 = 3$ (roughly mach 2.5 for this flow).
+
 ## Future Work
 
-There are certain scenarios where unphysical oscillations develop. I am currently working to mitigate this issue. I am looking to implement a TVD method to limit the oscillations. This is often achieved by limiting the flux. I would also like to implement an adaptive mesh, effectively increasing the resoultion around shocks.
-
-I also plan to implement this solver in 2D. I would also like to allow source terms in the equations.
+There are certain scenarios where unphysical oscillations develop. I am currently working to mitigate this issue. Due to the nature of the linearized Riemann solver, the method fails in the presence of a vacuum. I am working to implement a fix, or to use a different Riemann solver. I am also currently working on implementing the two-dimensional case on an [unstructured grid](https://en.wikipedia.org/wiki/Unstructured_grid).
 
 ### References
 
