@@ -2,6 +2,8 @@
 # Computer Science and Mathematics
 
 ### Projects
+- [**Numerical Gas Dynamics**](/projects/RoeSolver.md)
+
 - [**3D Rigid Body Simulator**](/projects/DzhanibekovEffect.md)
 
 - [**Wave Equation in Polar Coordinates**](/projects/PolarWaveEquation.md)
