@@ -48,6 +48,8 @@ p(x,0) = \begin{cases} 1 & x < 0 \\ 0.1 & x > 0 \end{cases}
 \end{align*}
 $$
 
+**The above initial condition could be a model of a one dimensional pipe, capped at the ends, filled with gas at rest, with a high pressure on the left side and a low pressure on the right side.**
+
 The Exact solution of the Riemann problem for Euler equations is known, so that can be used to test the accuracy of the method. Comparison is given below. The exact solution is given by the dashed line, and the numerical solution is given by the solid line.
 ![Comparison of Exact and Numerical Solution](shock_compare.gif)
 
