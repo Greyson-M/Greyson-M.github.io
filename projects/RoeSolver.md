@@ -15,11 +15,12 @@
 
 [Euler equations](https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)) are a set of [hyperbolic partial differential equations](https://en.wikipedia.org/wiki/Hyperbolic_partial_differential_equation) that describe the motion of an inviscid fluid. The compressible equations are given by:
 $$
+\\
 \begin{align*}
 \rho_t + (\rho u)_x  = 0 \\
 (\rho u)_t + \left( \rho u^2 + p \right)_x = 0 \\
 E_t + \left( (E + p)u \right)_x = 0
-\end{align*}
+\end{align*}\\
 $$
 Where:
 - $\rho$ is the density of the fluid
@@ -58,6 +59,7 @@ The Exact solution of the Riemann problem for Euler equations is known, so that 
 ![subsonic](subsonic_inflow.gif)
 Subsonic initial condition
 $$
+\\
 \rho_0 = \begin{cases} 1.5 & 0.35 < y < 0.55 \ \text{and} \ x < 0.1 \\ 0.4 & \text{otherwise} \end{cases} \\
 u_0 = \begin{cases} 0.5 & 0.35 < y < 0.55 \ \text{and} \ x < 0.1 \\ 0 & \text{otherwise} \end{cases} \\
 v_0 = 0 \\
