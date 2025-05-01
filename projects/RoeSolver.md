@@ -69,8 +69,19 @@ P_0 = \begin{cases} 1.5 & 0.35 < y < 0.55 \ \text{and} \ x < 0.1 \\ 0.4 & \text{
 $$
 
 ![supersonic](supersonic_inflow.gif)
+
 Supersonic initial condition
 Same as above, but with $u_0 = 3$ (roughly mach 2.5 for this flow).
+
+![Pressure Spike](approximate_delta.gif)
+
+Pressure spike at the center of the domain. The initial condition is given by:
+$$
+\rho_0 = 1 \\
+u_0 = 0 \\
+v_0 = 0 \\
+P_0(x,y) = \frac{25}{\sqrt{\pi}} \exp\left(-625\left[(x-0.5)^2 + (y-0.5)^2\right]\right)
+$$
 
 ## Future Work
 
