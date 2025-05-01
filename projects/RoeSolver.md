@@ -35,7 +35,7 @@ $$
 - $\gamma$ is the ratio of specific heats, which is a constant for a given gas. For air, $\gamma \approx 1.4$.
 
 ## Numerical Solution
-I use a [Godunov finite volume method](https://en.wikipedia.org/wiki/Godunov%27s_scheme) to solve the Euler equations. The method is based on the idea of partitioning the domain into a grid of cells and solving the equations in each cell. The fluxes at the boundaries of the cells are computed using a Riemann solver. The [Riemann problem](https://en.wikipedia.org/wiki/Riemann_problem) is an initial value problem that consists of two constant states separated by a discontinuity. The solution to the Riemann problem gives the fluxes at the boundaries of the cells.
+I use a [Godunov finite volume method](https://en.wikipedia.org/wiki/Godunov%27s_scheme) to solve the Euler equations. The method is based on the idea of partitioning the domain into a grid of cells where each cell has a constant value. The fluxes at the boundaries of each cell are found from the solution to the [Riemann problem](https://en.wikipedia.org/wiki/Riemann_problem) that cooresponds with the cell interface.
 
 For the Riemann solver, I used the method of Roe. The Roe solver is based on a [linearization](https://en.wikipedia.org/wiki/Linearization) of the the equations around a "Roe average" of the two constant states.
 
@@ -49,10 +49,12 @@ p(x,0) = \begin{cases} 1 & x < 0 \\ 0.1 & x > 0 \end{cases}
 \end{align*}
 $$
 
-The Exact solution of the Riemann problem for Euler equations is known, so that can be used to test the accuracy of the method. Comparison is given below. The exact solution is given by the dashed line, and the numerical solution is given by the solid line.
-![Comparison of Exact and Numerical Solution](shock_compare.gif)
+The Exact solution of the Riemann problem for Euler equations is known, so that can be used to test the accuracy of the method. Below, The finite volume solution is compared with a popular finite difference solution, and the exact solution to the Riemman problem. The exact solution is given by the dashed line, and the finite volume solution is given by the dotted line, and the finite difference solution is given by the solid line.
+![Comparison of Exact and Numerical Solution](fd-fv_compare1-d.gif)
 
-![Pressure Spike](pressure_spike_dense.gif)
+It can be seen that the finite volume approach does a better job of capturing the shock than the finite difference approach. The finite difference solutions are more diffusive, and do not capture the shock as well.
+
+<!-- ![Pressure Spike](pressure_spike_dense.gif) -->
 
 ## Two Dimensional Euler Equations
 
