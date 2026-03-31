@@ -1,7 +1,13 @@
 
 # Computer Science and Mathematics
 
+### Research
+
+- **Dynamic Response of a Finite Circular Plate on an Elastic Half-Space Using the Truncated Lamb Kernel**
+  *Greyson Meares, Sage Meiling, and Charis Tsikkou* — [*arXiv preprint (2026)*](https://arxiv.org/abs/2601.19031)
+
 ### Projects
+
 - [**Numerical Gas Dynamics**](/projects/RoeSolver.md)
 
 - [**3D Rigid Body Simulator**](/projects/DzhanibekovEffect.md)
@@ -13,7 +19,7 @@
 - [**Burgers Equation Solver**](/projects/BurgersEquation.md)
 
 - [**2D Heat Equation Solver**](/projects/HeatEquation.md)
-
+<!-- 
 ### Relevant Course Work
 
 **Computer Science**
@@ -31,7 +37,7 @@
 <div class="horizontal-list">
   <ul>
     <li>• Complex Analysis</li>
-    <li>• Data and Computer Communications (Networking)</li>
+    <li>• Data and Computer Communications</li>
     <li>• Operating Systems</li>
     <li>• Software Engineering</li>
   </ul>
@@ -47,7 +53,7 @@
     <li>• Discrete Mathematics</li>
     <li>• Probability and Statistics</li>
   </ul>
-</div>
+</div> -->
 
 **Resume**
 
