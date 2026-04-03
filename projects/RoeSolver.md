@@ -35,7 +35,7 @@ $$
 - $\gamma$ is the ratio of specific heats, which is a constant for a given gas. For air, $\gamma \approx 1.4$.
 
 ## Numerical Solution
-I use a [Godunov finite volume method](https://en.wikipedia.org/wiki/Godunov%27s_scheme) to solve the Euler equations. The method is based on the idea of partitioning the domain into a grid of cells where each cell has a constant value. The fluxes at the boundaries of each cell are found from the solution to the [Riemann problem](https://en.wikipedia.org/wiki/Riemann_problem) that cooresponds with the cell interface.
+I use a [Godunov finite volume method](https://en.wikipedia.org/wiki/Godunov%27s_scheme) to solve the Euler equations. The method is based on the idea of partitioning the domain into a grid of cells where each cell has a constant value. The fluxes at the boundaries of each cell are found from the solution to the [Riemann problem](https://en.wikipedia.org/wiki/Riemann_problem) that corresponds with the cell interface.
 
 For the Riemann solver, I used the method of Roe. The Roe solver is based on a [linearization](https://en.wikipedia.org/wiki/Linearization) of the the equations around a "Roe average" of the two constant states.
 
@@ -49,7 +49,7 @@ p(x,0) = \begin{cases} 1 & x < 0 \\ 0.1 & x > 0 \end{cases}
 \end{align*}
 $$
 
-The Exact solution of the Riemann problem for Euler equations is known, so that can be used to test the accuracy of the method. Below, The finite volume solution is compared with a popular finite difference solution, and the exact solution to the Riemman problem. The exact solution is given by the dashed line, and the finite volume solution is given by the dotted line, and the finite difference solution is given by the solid line.
+The exact solution of the Riemann problem for Euler equations is known, so that can be used to test the accuracy of the method. Below, the finite volume solution is compared with a popular finite difference solution, and the exact solution to the Riemann problem. The exact solution is given by the dashed line, the finite volume solution is given by the dotted line, and the finite difference solution is given by the solid line.
 ![Comparison of Exact and Numerical Solution](fd-fv_compare1-d.gif)
 
 It can be seen that the finite volume approach does a better job of capturing the shock than the finite difference approach. The finite difference solutions are more diffusive, and do not capture the shock as well.
@@ -82,10 +82,6 @@ u_0 = 0 \\
 v_0 = 0 \\
 P_0(x,y) = \frac{25}{\sqrt{\pi}} \exp\left(-625\left[(x-0.5)^2 + (y-0.5)^2\right]\right)
 $$
-
-## Future Work
-
-There are certain scenarios where unphysical oscillations develop. I am currently working to mitigate this issue. Due to the nature of the linearized Riemann solver, the method fails in the presence of a vacuum. I am working to implement a fix, or to use a different Riemann solver. I am also currently working on implementing the two-dimensional case on an [unstructured grid](https://en.wikipedia.org/wiki/Unstructured_grid).
 
 ### References
 
