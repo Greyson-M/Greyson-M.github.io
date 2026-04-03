@@ -1,12 +1,11 @@
 
 # Computer Science and Mathematics
 
-### Research
+### Publications
 
-- **Dynamic Response of a Finite Circular Plate on an Elastic Half-Space Using the Truncated Lamb Kernel**
-  *Greyson Meares, Sage Meiling, and Charis Tsikkou* — To appear in *International Journal of Engineering Science*. [*arXiv:2601.19031*](https://arxiv.org/abs/2601.19031)
+- Greyson Meares, Sage Meiling, and Charis Tsikkou. "Dynamic Response of a Finite Circular Plate on an Elastic Half-Space Using the Truncated Lamb Kernel." *International Journal of Engineering Science* (to appear). [[arXiv:2601.19031]](https://arxiv.org/abs/2601.19031)
 
-### Projects
+### Numerical Demonstrations
 
 - [**Numerical Gas Dynamics**](/projects/RoeSolver.md)
 
