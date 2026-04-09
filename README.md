@@ -3,7 +3,7 @@
 
 ### Publications
 
-- Greyson Meares, Sage Meiling, and Charis Tsikkou. "Dynamic Response of a Finite Circular Plate on an Elastic Half-Space Using the Truncated Lamb Kernel." *International Journal of Engineering Science* (to appear). [[arXiv:2601.19031]](https://arxiv.org/abs/2601.19031)
+- [Greyson Meares, Sage Meiling, and Charis Tsikkou. "Dynamic Response of a Finite Circular Plate on an Elastic Half-Space Using the Truncated Lamb Kernel." *International Journal of Engineering Science*.](https://authors.elsevier.com/c/1muPS4jZMpHRC)
 
 ### Numerical Demonstrations
 
